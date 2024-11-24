@@ -1,0 +1,153 @@
+body {
+    font-family: "Montserrat",cursive;
+    font-size: 1.6rem;
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+header {
+    font-size: 2.4rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px;
+    height:10vh;
+  }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    padding: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    background-color: rgba(40, 42, 40, 0.555);
+
+  }
+  
+  .restaurant-name {
+    margin-bottom: 1rem;
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    color:white;
+    text-align: center;
+  }
+  
+  .button-nav {
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    transition: transform 0.3s;
+    color:white;
+  }
+  
+  .button-nav.active {
+    border-bottom: 2px solid var(--font-color);
+  }
+  
+  .button-nav:hover {
+    transform: translateY(-10%);
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+    width: 618px;
+    animation: fadeIn 1.5s;
+    background-color: rgba(40, 42, 40, 0.555);
+
+  }
+  
+  .home p {
+    color: white;
+  }
+  
+  .home img {
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    opacity: 90%;
+  }
+
+  .menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    animation: fadeIn 1.5s;
+  }
+
+  .menu-item {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40,42,40,0.8);
+    color: white;
+  }
+
+  .menu-item:hover {
+    background-color: var(--background-light-hover);
+  }
+  
+  .menu-item img {
+    width: 30%;
+  }
+  
+  .menu-item h3 {
+    padding: 2rem;
+  }
+  
+  .menu-item p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+    width: 618px;
+    animation: fadeIn 1.5s;
+    background-color: rgba(40, 42, 40, 0.555);
+    padding: 20px;
+  }
+  
+  .about p {
+    padding: 30px;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .about img {
+    padding: 30px;
+    max-height: 420px;
+    padding: 1rem;
+    opacity: 90%;
+  }
